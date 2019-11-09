@@ -55,6 +55,12 @@ let iso_639_1 = colage.c2l('CH'); // Switzerland
 console.log(iso_639_1); //=> [ 'de', 'fr', 'it', 'rm' ]
 ```
 
+Convert job (string) to department (string)
+```js
+let department = colage.j2d('Story');
+console.log(department); //=> Writing
+```
+
 ## Running tests
 
 ```bash

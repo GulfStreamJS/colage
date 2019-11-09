@@ -55,3 +55,12 @@ describe('C2L', function() {
         });
     });
 });
+
+describe('J2D', function() {
+    let department = colage.j2d('Story');
+    describe('job to department', function() {
+        it('should return string name department', function() {
+            assert.deepEqual(department, 'Writing');
+        });
+    });
+});

@@ -1,6 +1,6 @@
 {
   "name": "colage",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Converted multi language meta information COuntries|LAnguages|GEnres.",
   "keywords": ["ISO", "639", "639-1", "ISO 639-1", "3166", "3166-1", "ISO 3166-1", "3166-1 alpha-2", "ISO 3166-1 alpha-2", "lang", "langs", "language", "languages", "country", "countries", "genre", "genres"],
   "license": "MIT",

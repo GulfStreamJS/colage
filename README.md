@@ -49,6 +49,12 @@ let en_genres = colage.ge([ '8', '21', '1' ], 'en');
 console.log(en_genres);  //=> [ 'comedy', 'musical', 'action' ]
 ```
 
+Convert country ISO 3166-1 (string) to languages ISO 639-1 (array)
+```js
+let iso_639_1 = colage.c2l('CH'); // Switzerland
+console.log(iso_639_1); //=> [ 'de', 'fr', 'it', 'rm' ]
+```
+
 ## Running tests
 
 ```bash

@@ -46,3 +46,12 @@ describe('GE', function() {
         });
     });
 });
+
+describe('C2L', function() {
+    let iso_639_1 = colage.c2l('CH');
+    describe('country ISO 3166-1 to languages ISO 639-1', function() {
+        it('should return array ISO 639-1', function() {
+            assert.deepEqual(iso_639_1, [ 'de', 'fr', 'it', 'rm' ]);
+        });
+    });
+});
